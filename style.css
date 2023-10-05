@@ -1,0 +1,251 @@
+/* General styles */
+
+
+.main {
+    height: auto;
+    display: inline;
+    width: auto;
+    background-color: lavenderblush;
+    overflow: scroll;
+  }
+  
+
+  
+  
+  /* Box styles */
+  .box {
+    height: 50em;
+    width: auto;
+   
+  }
+
+  #background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+
+  
+  #text{
+    float: right;
+    width: 600px;
+    height: 680px;
+    background-color: dimgray;
+    margin-top: 100px;
+    margin-right: 50px;
+    padding: 10px;
+    position: relative;
+    opacity: 0.5;
+  }
+  
+  /* Typography styles */
+  h1 {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-family: verdana;
+  }
+  
+  p {
+    padding: 10px;
+    font-family: verdana;
+    font-size: 15px;
+    color: white;
+    line-height: 40px;
+    font-weight: 500;
+  }
+  
+  h4 {
+    font-family: verdana;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+  }
+  
+  /* Box2 styles */
+  .box2 {
+    height: 50em;
+    width: auto;
+    background-color: darkslategray;
+  }
+  
+  #text2 {
+    background-color: darkslategray;
+    width: 600px;
+    height: 300px;
+  }
+  
+  h2 {
+    color: white;
+    padding-top: 30px;
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: 200;
+  }
+  
+  h3 {
+    color:white;
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  
+  h3 a {
+    color: rosybrown;
+    text-decoration: none;
+  }
+  
+  p1 {
+    font-family: verdana;
+    color: gray;
+  }
+  
+  /* Post1 styles */
+  .post1 {
+    float: left;
+    width: 350px;
+    height: 800px;
+    margin: 100px 20px 100px;
+    padding: 5px;
+    background-color: beige;
+  }
+  
+  /* Box3 styles */
+  .box3 {
+    width: auto;
+    height: 900px;
+    background-color: #303030;
+  }
+  
+  
+  .text3 {
+    float: right;
+    margin: 50px 100px;
+  }
+  
+  /* Box4 styles */
+  .box4 {
+    width: auto;
+    height: 800px;
+    background-color: #303030;
+  }
+
+  
+  h5 {
+    font-size: 30px;
+    font-family: verdana;
+    color: white;
+    font-weight: 300;
+  }
+  
+  #textbox {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 350px;
+    padding: 20px;
+    color: white;
+    height: 200px;
+    width: fit-content;
+  }
+  
+  #textbox h6 {
+    font-size: 20px;
+    color: white;
+    font-family: Verdana;
+    margin-right: 20px;
+    margin-top: -20px;
+    font-weight: 300;
+  }
+  
+
+  .button {
+    background-color: white;
+    border: none;
+    color: darkslategrey;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+ #text3{
+    float: right;
+    width: 600px;
+    height: fit-content;
+    background-color: dimgray;
+    margin-top: 100px;
+    margin-right: 50px;
+    padding: 10px;
+    position: relative;
+
+ }
+
+ .container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   
+   img {
+     max-width: 100%;
+     max-height:100%;
+   }
+   
+   .textside {
+     font-size: 70px;
+   }
+  
+
+
+  
+  /* Part1 styles */
+  
+  /* Responsive styles */
+  @media screen and (max-width: 1000px) {
+    #text {
+      position: static;
+    }
+  }
+  
+  /* Card styles */
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .card {
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card img {
+    max-width: 100%;
+  }
+  
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+  }
+  
